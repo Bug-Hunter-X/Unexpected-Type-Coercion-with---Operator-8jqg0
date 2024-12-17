@@ -1,0 +1,2 @@
+function foo(a,b){return a+b;}console.log(foo(1, "1")); // Output: 11
+This happens because the + operator will perform string concatenation if one of the operands is a string.  In this case, the number 1 is implicitly converted to the string "1", and then the two strings are concatenated.
